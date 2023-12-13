@@ -14,6 +14,17 @@ export default function HomePage() {
                             Log In
                         </button>
                     </div>
+                    <div className={styles.accountType}>
+                        <button className={styles.accountOption}>Teacher</button>
+                        <p>/</p>
+                        <button className={styles.accountOption}>Student</button>
+                    </div>
+                    <form className={styles.form}>
+                        <label>Email</label>
+                        <input></input>
+                        <label>Password</label>
+                        <input></input>
+                    </form>
                 </div>
             </div>
 
